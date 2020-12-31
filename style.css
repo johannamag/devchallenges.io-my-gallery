@@ -64,3 +64,36 @@ main {
   color: var(--gray-mid);
   margin-bottom: 25px;
 }
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.count {
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+  background-color: var(--gray-bg);
+  border-radius: 12px;
+  margin-right: 24px;
+}
+
+.count:last-child {
+  margin-right: 0;
+}
+
+.number {
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--gray-dark);
+  margin-bottom: 4px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--gray-light);
+}
