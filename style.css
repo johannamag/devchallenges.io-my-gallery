@@ -212,3 +212,24 @@ main {
 .image-6:hover .fa-share {
   visibility: initial;
 }
+
+.bottom {
+  color: var(--gray-mid);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #a9a9a9;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: var(--gray-dark);
+}
